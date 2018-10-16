@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-myName = 'Miriam Feuerman'
-print(myName)
+import sys
 
-
+myName = sys.argv[1]
+print("My Name", myName)
+favColor = sys.argv[2]
+print("My favorite color", favColor)
+favAct = sys.argv[3]
+print("My favorite activity", favAct)
+favCrit = sys.argv[4]
+print("My favorite animal", favCrit)
